@@ -11,6 +11,7 @@ section {
 }
 
 
+
 /* Header Styles Start From Here */
 .header {
     background-image: url('images/banner/banner3.png');
@@ -54,10 +55,10 @@ section {
     line-height: 23px;
     color: #005FAC;
     cursor: pointer;
-
 }
 
 /* Header Styles End Here */
+
 
 
 /* Failures 2nd-Section Styles Start From Here */
@@ -108,6 +109,7 @@ section {
 /* Failures 2nd-Section Styles End Here */
 
 
+
 /* My Plans 3rd Section Styles Start From Here */
 .my_plans {
     text-align: center;
@@ -143,4 +145,107 @@ section {
     text-align: center;
     color: #737272;
 }
+
 /* My Plans 3rd Section Styles End Here */
+
+
+
+/* Call To Action 5th-Section Styles Start From Here */
+.call_to_action {
+    max-height: 300px;
+    background-image: url('images/watch.png'), url('images/gradient1.png');
+    background-size: cover, cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.call_to_action_heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-right: 20%;
+    margin-bottom: 24px;
+    margin-top: 59px;
+    margin-left: 64px;
+}
+
+.call_to_action_container .header_btn {
+    margin-left: 64px;
+    margin-bottom: 59px;
+}
+/* Call To Action 5th-Section Styles End Here */
+
+
+
+/* Footer Section Styles Start From Here */
+.footer {
+    display: flex;
+    background-color: #151414;
+    margin-top: 130px;
+    padding: 130px 200px;
+}
+
+.feature {
+    width: 65%;
+    margin-right: 20%;
+}
+
+.footer_heading {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer_feature_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.feature_icon_container {
+    display: flex;
+    gap: 18px;
+}
+
+.subscription {
+    width: 35%;
+}
+
+.subscription input[type=email] {
+    width: 100%;
+    display: block;
+    background-color: #151414;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+    margin-bottom: 16px;
+    margin-top: 31px;
+}
+
+.subscription input[type=submit] {
+    width: 170.11px;
+    height: 64px;
+    left: 1046px;
+    top: 2921.96px;
+    background: #005FAC;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Footer Section Styles End Here */
